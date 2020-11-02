@@ -4,7 +4,7 @@ class ground{
         this.y = y;
         this.width = width;
         this.height = height;
-        this.body=Bodies.rectangle(x,y,width,height,{isStatic:true,restitution:0.3});
+        this.body=Bodies.rectangle(x,y,width,height,{isStatic:true,restitution:0.1});
         World.add(world,this.body);
     }
     display(){
